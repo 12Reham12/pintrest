@@ -1,0 +1,275 @@
+body {
+    margin: 0px;
+}
+
+.image {
+    position:relative;
+    width:400px;
+    height:400px;
+    }
+    .image img {
+    width:100%;
+    vertical-align:top;
+    }
+    .image:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    }
+    .image:hover:after {
+    opacity:1;
+    }
+.ul-nav li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.ul-nav li a {
+
+    text-decoration: none;
+    padding-top: 10px;
+    float: left;
+    color: black;
+
+
+}
+
+.ul-nav li a:hover {
+
+    border-bottom: 2px solid black;
+
+}
+
+.nav-bar {
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+    height: 50px;
+}
+
+.all-micro {
+    position: absolute;
+    right: 150px;
+}
+
+.search-ic {
+    position: absolute;
+    right: 100px;
+}
+
+.search-ic:hover,
+.add-user:hover {
+    cursor: pointer;
+}
+
+.add-user {
+    position: absolute;
+    right: 60px;
+}
+
+.butt {
+    position: absolute;
+    left: 110px;
+    top: 380px;
+    width: 200px;
+    height: 50px;
+    background-color: #0067b8;
+    color: white;
+    border: 1px #0067b8 solid;
+    font-weight: bold;
+}
+
+.butt:hover,
+.ios-and button:hover {
+    cursor: pointer;
+    background-color: #095d9e;
+}
+
+.content {
+    position: relative;
+    margin: 0%;
+    margin-top: 5px;
+}
+
+.content p {
+    position: absolute;
+    top: 260px;
+    left: 110px;
+    width: 400px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content h3 {
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    color: white;
+    width: 400px;
+    font-size: 26px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.app {
+    float: left;
+    margin-top: 80px;
+    margin-left: 30px;
+    height: 300px;
+}
+
+.app p {
+    width: 300px;
+}
+
+.app:hover {
+    cursor: pointer;
+}
+
+.app a,
+.business a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.app a:hover,
+.business a:hover {
+    text-decoration: underline;
+    color: blue;
+    padding-right: 5px;
+
+}
+
+.ios-and {
+    margin-top: 500px;
+    position: relative;
+}
+
+.ios-and img {
+
+    margin-left: 30px;
+    width: 90%;
+    height: 70%;
+}
+
+.ios-and p {
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+}
+
+.ios-and h2 {
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+}
+
+.ios-and button {
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: #0067b8;
+    color: white;
+    border: 1px #0067b8 solid;
+    font-weight: bold;
+}
+
+.for-bus {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.business {
+    float: left;
+    margin-left: 30px;
+}
+
+.business p,
+.business h1 {
+    width: 300px;
+}
+
+.social p {
+    float: left;
+    padding-left: 30px;
+}
+
+.social img {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.social .link:hover {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(233, 230, 230);
+}
+
+th {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 13px;
+}
+
+td:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.list-footer {
+    float: right;
+}
+
+.list-footer li {
+    margin-top: 50px;
+    padding: 7px;
+    float: right;
+    list-style-type: none;
+}
+
+.list-footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.arrow {
+    border: solid blue;
+    border-width: 0px 2px 2px 0px;
+    padding: 3px;
+    display: inline-block;
+   transform: rotate(-45deg);
+}
